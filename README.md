@@ -17,7 +17,7 @@ Adding the backend adds the functionality of submitting custom quotes, and retri
 
 Adding the database allows for persisting the custom quotes between application restarts.
 
-The application images are stored in the GitHub container registry (ghcr.io), and can be found at `ghcr.io/eficode-academy/quotes-flask-frontend` and `ghcr.io/eficode-academy/quotes-flask-backend`, respectively.
+The application images are stored in the GitHub container registry (ghcr.io), and can be found at `ghcr.io/efi-hacking/quotes-flask-frontend` and `ghcr.io/efi-hacking/quotes-flask-backend`, respectively.
 
 Application images are built on pushes to the main branch using GitHub Actions.
 "production" container images are available using the `release` tag from GitHub container registry.
